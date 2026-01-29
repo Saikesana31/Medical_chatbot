@@ -1,0 +1,18 @@
+[project]
+name = "medical-chatbot"
+version = "0.1.0"
+description = "Medical-chatbot that can diagnosis the disease"
+author= " sai_kesana"
+author_email = "kesana.class2024@gmail.com"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.2",
+    "langchain>=1.2.7",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.7",
+    "langchain-pinecone>=0.2.13",
+    "pypdf>=6.6.2",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.2.2",
+]
