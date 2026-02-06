@@ -6,8 +6,8 @@ from langchain_pinecone import PineconeVectorStore
 
 load_dotenv()
 
-pinecone_api_key = os.getenv("PINECONE_API_KEY")
-openai_api_key = os.getenv("OPENAI_API_KEY")
+pinecone_api_key = os.getenv("PINECONE_API_KEY").strip()
+openai_api_key = os.getenv("OPENAI_API_KEY").strip()
 
 # Setting up the environment variables
 os.environ["OPENAI_API_KEY"] = openai_api_key
